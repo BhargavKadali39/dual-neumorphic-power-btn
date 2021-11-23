@@ -41,7 +41,7 @@ body{
     cursor: pointer;
     box-shadow: inset 5px 5px 17px #010111,
         inset -5px -5px 17px #030345;
-    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 
@@ -50,5 +50,11 @@ body{
     background: url('https://img.icons8.com/officel/48/000000/shutdown.png') 27px 27px no-repeat;
     box-shadow:  5px 5px 17px #010111,
                 -5px -5px 17px #030345;
-                
+}
+
+
+.chkbx:active{
+    background: url('https://img.icons8.com/emoji/48/000000/white-circle-emoji.png') 27px 27px no-repeat;
+    box-shadow:  5px 5px 17px #010111,
+                 -5px -5px 17px #030345;
 }
