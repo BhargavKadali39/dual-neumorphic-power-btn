@@ -1,1 +1,192 @@
 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(2, 2, 43);
+}
+
+/* ------------------------------------------     insert here   ---------------------------------------------- */
+div{
+    transition: all 0.5s cubic-bezier(0.6, 1.07, 1, 0.18);
+}
+
+.chkbx{
+    background: url('https://img.icons8.com/cotton/48/000000/shutdown--v2.png') 107px 107px no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    outline: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 250px;
+    width: 250px;
+    margin-top: -125px;
+    margin-left: -125px;
+    border-radius: 10px;
+    background-color: #02022B;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: inset 5px 5px 17px #010111,
+        inset -5px -5px 17px #030345;
+    transition: all 0.5s cubic-bezier(0.6, 1.07, 1, 0.18);
+}
+
+
+/* .chkbx:checked{
+    background: linear-gradient(145deg, #020227, #02022e);
+    box-shadow:  5px 5px 17px #010111,
+                -5px -5px 17px #030345;
+} */
+
+
+.chkbx:active{
+    background: url('https://img.icons8.com/emoji/48/000000/white-circle-emoji.png') 107px 107px no-repeat;
+    box-shadow:  5px 5px 17px #010111,
+                 -5px -5px 17px #030345;
+}
+
+
+.chkbx::after{
+    content: '';
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    left: 30%;
+    top: 30%;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+
+
+input:checked + label::after {
+    content: '';
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    left: 50%;
+    top: 50%;
+    margin-left: -75px;
+    margin-top: -75px;
+    background: #02022B;
+    background: url('https://img.icons8.com/officel/48/000000/shutdown.png') 57px 57px no-repeat;
+    box-shadow: inset 14px 14px 27px #010111,
+                inset -14px -14px 27px #030345;
+}
+input:checked + .chkbx::after{
+    all: none;
+    background: #e83c74;
+}
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* 
+
+
+rgb(41,21,84)
+rgb(194,66,184)
+rgb(232,60,116)
+
+rgb(132,44,101)
+
+.mainB{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    border-radius: 10px;
+    background: #02022B;
+    box-shadow: inset 5px 5px 17px #010111,
+                inset -5px -5px 17px #030345;
+} */
+
+
+/* .chkbx{
+    background: url('https://img.icons8.com/cotton/48/000000/shutdown--v2.png') 27px 27px no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    outline: none;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    background-color: #02022B;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: inset 5px 5px 17px #010111,
+        inset -5px -5px 17px #030345;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+
+.chkbx:checked{
+    background: linear-gradient(145deg, #020227, #02022e);
+    background: url('https://img.icons8.com/officel/48/000000/shutdown.png') 27px 27px no-repeat;
+    box-shadow:  5px 5px 17px #010111,
+                -5px -5px 17px #030345;
+}
+
+
+.chkbx:active{
+    background: url('https://img.icons8.com/emoji/48/000000/white-circle-emoji.png') 27px 27px no-repeat;
+    box-shadow:  5px 5px 17px #010111,
+                 -5px -5px 17px #030345;
+} */
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+#34495E
+
+<img src="https://img.icons8.com/emoji/48/000000/white-circle-emoji.png"/>
+<img src="https://img.icons8.com/cotton/48/000000/shutdown--v2.png"/>
+<img src="https://img.icons8.com/material/48/000000/shutdown--v1.png"/>
+<img src="https://img.icons8.com/officel/48/000000/shutdown.png"/>
+
+*/
